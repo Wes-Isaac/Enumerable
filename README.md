@@ -1,4 +1,4 @@
-# Morse Code Decoder
+# Enumerable
 In this project we will use a module inside a class. For this we will create a class `MyList` and a module `MyEnumerable`. The module `MyEnumerable` will implement a subset of the functionality of `Enumerable`.
 
 ## Built With
