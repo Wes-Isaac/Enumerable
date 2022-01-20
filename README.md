@@ -1,62 +1,37 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
-
-> Description the project.
-
+# Morse Code Decoder
+This project will decode an entire word in Morse code, takes a string parameter, and return the string representation. It uses:
+-  A method that decodes a Morse code character, takes a string parameter, and return the corresponding character in uppercase (e.g. decode_char(".-") returns "A").
+- A method that decodes an entire word in Morse code, takes a string parameter, and return the string representation. Every character in a word will be separated by a single space (e.g. decode_word("-- -.--") returns "MY").
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
 
-## Live Demo (if available)
+## Additional Tools
 
-[Live Demo Link](https://livedemo.com)
+- rubocop
 
+## `Tests`
+### To track linter errors locally follow these steps:  
 
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+Track linter errors run:
+```
+rubocop
+```
 
 ## Authors
 
-👤 **Author1**
+👤 **Simo Nkosi**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@KDlamini](https://github.com/KDlamini)
+- Twitter: [@RealSimoNkosi](https://twitter.com/RealSimoNkosi)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/simo-nkosi-418523180/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/KDlamini/morse_code_decoder/issues).
 
 ## Show your support
 
@@ -64,9 +39,10 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- This project is part module 4 in the Microverse study program.
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to Code Reviewers for the insightful feedback.
+- A great thanks to My coding partners, morning session team, and standup team Partners for their contributions.
 
 ## 📝 License
 
