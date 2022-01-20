@@ -1,7 +1,5 @@
 # Morse Code Decoder
-This project will decode an entire word in Morse code, takes a string parameter, and return the string representation. It uses:
--  A method that decodes a Morse code character, takes a string parameter, and return the corresponding character in uppercase (e.g. decode_char(".-") returns "A").
-- A method that decodes an entire word in Morse code, takes a string parameter, and return the string representation. Every character in a word will be separated by a single space (e.g. decode_word("-- -.--") returns "MY").
+In this project we will use a module inside a class. For this we will create a class `MyList` and a module `MyEnumerable`. The module `MyEnumerable` will implement a subset of the functionality of `Enumerable`.
 
 ## Built With
 
@@ -37,7 +35,7 @@ rubocop
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/KDlamini/morse_code_decoder/issues).
+Feel free to check the [issues page](https://github.com/Wes-Isaac/Enumerable/issues).
 
 ## Show your support
 
