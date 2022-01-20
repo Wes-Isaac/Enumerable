@@ -12,4 +12,3 @@ module MyEnumerable
     end
     response
   end
-  
