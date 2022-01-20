@@ -22,4 +22,14 @@ module MyEnumerable
     end
     response
   end
+
+  def filter
+    return unless block_given?
+
+    arr = []
+    list.each do |element|
+      arr.push(element) if yield element
+    end
+    arr
+  end
 end
